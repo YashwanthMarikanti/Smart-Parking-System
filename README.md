@@ -1,57 +1,89 @@
 # 🚗 Smart Parking System using Arduino
 
 ## 📌 Project Overview
-This project is a Smart Parking System developed using Arduino to automate parking space management.
+The Smart Parking System is an IoT-based project built using Arduino, IR sensors, and a servo motor to automate vehicle parking management.  
+It detects vehicles at entry and exit points and controls a gate automatically, improving efficiency and reducing manual effort.
 
-It helps detect available parking slots and controls entry/exit using sensors and a servo motor.
+---
+
+## 🖼️ Project Images
+
+### 🔧 Circuit Diagram
+![Circuit Diagram](images/circuit.png)
+
+### 🛠️ Hardware Setup
+![Setup](images/setup.jpg)
+
+### 🔌 Arduino Connection (Without Breadboard)
+![Arduino Setup](images/arduino.jpg)
+
+### 🚗 Working Model
+![Working Model](images/working.jpg)
 
 ---
 
 ## ⚙️ Features
-- Automatic vehicle detection using IR sensors
-- Real-time parking count display via Serial Monitor
-- Servo motor gate control
-- Parking full indication
-- Low-cost and efficient system
+- Automatic vehicle detection using IR sensors  
+- Servo motor-based gate control  
+- Entry and exit tracking system  
+- Efficient parking space monitoring  
+- Low-cost and easy-to-build design  
 
 ---
 
-## 🛠️ Hardware Components
-- Arduino Uno
-- IR Sensors
-- Servo Motor
-- LEDs (Optional)
-- Jumper Wires
-- Power Supply
-
----
-
-## 💻 Software Used
-- Arduino IDE
-- Embedded C (Arduino Programming)
-
----
-
-## 📂 Project Files
-- 📄 `IOT_project.pdf` → Full project report
-- 💻 `code/smart_parking.ino` → Arduino source code
+## 🛠️ Components Used
+- Arduino Uno  
+- IR Sensors (2)  
+- Servo Motor  
+- LEDs  
+- Jumper Wires  
+- Power Supply  
 
 ---
 
 ## 🔌 Working Principle
-- IR sensors detect vehicle entry and exit
-- Arduino processes signals
-- Servo motor opens/closes gate
-- Car count is updated automatically
-- Displays parking availability
+1. IR sensors detect vehicles at entry and exit  
+2. Arduino processes the sensor signals  
+3. Servo motor opens the gate when a vehicle is detected  
+4. After entry/exit, the gate closes automatically  
+5. The system keeps track of parking availability  
 
 ---
 
-## 🚀 How to Use
-1. Upload the code to Arduino
-2. Connect IR sensors and servo motor
-3. Open Serial Monitor
-4. Observe parking status
+## 💻 Arduino Code
+The complete code is available in:  
+`code/smart_parking.ino`
+
+---
+
+## 📂 Project Files
+- 📄 Project Report → `docs/IOT_project.pdf`  
+- 💻 Arduino Code → `code/smart_parking.ino`  
+- 🖼️ Images → `images/`  
+
+---
+
+## 🚀 How to Run
+1. Connect components as per circuit diagram  
+2. Upload the code using Arduino IDE  
+3. Power the Arduino board  
+4. Test using an object/vehicle  
+
+---
+
+## 📊 Advantages
+- Reduces manual parking management  
+- Saves time and effort  
+- Cost-effective solution  
+- Easy implementation  
+
+---
+
+## 🔮 Future Scope
+- Integration with IoT (mobile app control)  
+- Cloud-based monitoring system  
+- LCD display for slot availability  
+- Smart city applications  
 
 ---
 
@@ -63,18 +95,5 @@ It helps detect available parking slots and controls entry/exit using sensors an
 
 ---
 
-## 📚 References
-- https://www.arduino.cc
-- Embedded Systems Books
-- IoT Research Papers
-
----
-
-## 🌟 Future Improvements
-- Mobile App Integration
-- IoT Cloud Monitoring
-- LCD Display Integration
-
----
-
-⭐ If you like this project, give it a star!
+## ⭐ Support
+If you like this project, please give it a ⭐ on GitHub!
