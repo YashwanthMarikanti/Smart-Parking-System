@@ -9,16 +9,16 @@ It detects vehicles at entry and exit points and controls a gate automatically, 
 ## 🖼️ Project Images
 
 ### 🔧 Circuit Diagram
-![Circuit Diagram](images/circuit.png)
+![Circuit Diagram](./images/circuit.png)
 
 ### 🛠️ Hardware Setup
-![Setup](images/setup.jpg)
+![Hardware Setup](./images/setup.jpg)
 
 ### 🔌 Arduino Connection (Without Breadboard)
 ![Arduino Setup](images/arduino.jpg)
 
 ### 🚗 Working Model
-![Working Model](images/working.jpg)
+![Working Model](./images/working.jpg)
 
 ---
 
